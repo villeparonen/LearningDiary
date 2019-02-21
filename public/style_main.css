@@ -1,0 +1,147 @@
+/*
+        -Main CSS
+        @author Inari, Ville
+*/
+.form-group {
+    width: 80%;
+    font-size: medium;
+    margin: auto;
+}
+#logout {
+    float: right;
+}
+
+body, html {
+    height: 100%;
+}
+
+.ulkospan {
+    margin: 15px;
+    font-size: 18px;
+}
+
+#welcome {
+    font-size: 18px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+.background {
+    height: 100%;
+    /* The image used */
+    background-image: url("/branko-stancevic-417172-unsplash.jpg") !important;
+    /* bgcolor is black when image is not seen */
+    background-color: black;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2px;
+}
+
+body, html {
+    background-color:  rgb(39, 38, 38);
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+th {
+    color: #C8F0A7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#accordion > div {
+    background-color:  rgb(39, 38, 38) !important;
+    color: #FFF !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.panel-heading {
+    background-color:  rgb(39, 38, 38) !important;
+    color: #FFF !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.btn-del, .btn-edit, .btn-save {
+    background-color:  rgb(39, 38, 38) !important;
+    color: #FFF !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.outlook {
+    background-color: rgb(39, 38, 38);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    border: 1px solid lightslategrey;
+    border-bottom: 3px solid lightslategrey;
+    border-top: 3px solid lightslategrey;
+}
+.typewriter > div, .typewriter > div > span {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(25, end),
+      blink-caret .80s step-end;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+  }
+
+textarea {
+    color: black !important;
+}
+
+input:focus, textarea:focus {
+    outline: 1px solid blueviolet !important;
+    border: 2px solid #82A645 !important;
+    box-shadow: 0 0 25px #82A645 !important;
+}
+
+button:hover {
+    outline: 1px solid blueviolet !important;
+    border: 2px solid #82A645 !important;
+    box-shadow: 0 0 20px #82A645 !important;
+}
+
+.sortButtonit {
+    text-align: center;
+}
+.listOfEntries{
+    text-align: center;
+}
+.panel-group{
+    width: 52.5%;
+    margin:auto;
+}
+
+a:link {
+    color: white;
+    text-decoration: none !important;
+}
+a:visited {
+    color: white !important;
+    text-decoration: none !important;
+}
+.textarea {
+    color: white;
+}
+
